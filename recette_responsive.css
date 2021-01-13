@@ -1,0 +1,189 @@
+body {
+    background-color: #8BA1BB;
+    font-family: Arial;
+}
+
+p.categorie {
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    padding: 9px 18px;
+    margin-bottom: -20px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+div.categorie {
+    margin-bottom: -10px;
+}
+
+div.contenu {
+    background-color: white;
+    margin: 0px 10% 0px 10%;
+    padding: 30px;
+    box-shadow: 0px 0px 8px 4px grey;
+}
+
+h1 {
+    text-align: center;
+}
+
+p.description {
+    text-align: center;
+    max-width: 400px;
+    display: inline-block;
+}
+
+.hl {
+    border-bottom: 1px solid black;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center{
+    text-align: center;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+.tableimg {
+    position: relative;
+}
+
+table.format {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    color: white;
+    background-color: #8BA1BBC0;
+}
+
+th {
+    vertical-align: bottom;
+    font-size: 14px;
+}
+
+td {
+    vertical-align: top;
+    font-size: 12px;
+}
+
+img.info {
+    max-height: 600px;
+    min-height: 200px;
+    object-fit: cover;
+}
+
+div.colonne1 {
+    display: inline-block;
+}
+
+div.colonne1 p {
+    text-align: center;
+    border: 1px solid lightgray;
+    padding: 10px;
+    margin: 5px;
+    font-size: 14px;
+}
+
+div.colonne2 {
+    /* float:right; */
+}
+
+div.colonne {
+    margin-top: 20px;
+    width: 100%;
+}
+
+div.colonne h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-bottom: 5px solid #8BA1BB;
+    padding-bottom: 5px;
+    overflow: auto;
+}
+
+p.numero {
+    background-color: #8BA1BB;
+    color: white;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 4px;
+    border-radius: 50%;
+    margin-top: 0px;
+    font-size: 14px;
+}
+
+td.texte {
+    padding-left: 20px;
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+}
+
+/* {
+    overflow: auto; /* * selectionne tout le document et overflow dit que rien ne peut dépasser 
+} */
+
+/* Style pour ordinateur */
+
+@media only screen and (min-width: 768px) {
+    div.contenu {
+        min-width: 350px;
+        margin: 0px 10% 60px 10%;
+        padding: 30px;
+    }
+
+    th {
+        font-size: 18px;
+    }
+
+    td {
+        font-size: 16px;
+    }
+
+    table.format {
+        height: 80px;
+    }
+
+    div.colonne1 {
+        display: inline-block;
+    }
+    
+    div.colonne1 p {
+        text-align: center;
+        border: 1px solid lightgray;
+        padding: 10px;
+        margin: 5px;
+        font-size: 14px;
+    }
+    
+    div.colonne2 {
+        float:right;
+    }
+    
+    div.colonne {
+        margin-top: 20px;
+        width: 45%;
+    }
+    
+    div.colonne h2{
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 15px;
+        border-bottom: 5px solid #8BA1BB;
+        padding-bottom: 5px;
+        overflow: auto;
+    }
+
+}
